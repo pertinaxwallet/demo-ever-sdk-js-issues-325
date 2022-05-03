@@ -1,0 +1,33 @@
+{
+  "name": "demo-ever-sdk-js-issues-325",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "npm run dist && gulp build",
+    "dist": "rollup --config",
+    "start": "rollup --config --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pertinaxwallet/demo-ever-sdk-js-issues-325.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "rollup-plugin-copy": "^3.3.0",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-html": "^0.2.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "rollup": "^2.38.5",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-watch-assets": "^1.0.1",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "globby": "^3.0.0"
+  },
+  "dependencies": {
+    "@eversdk/core": "^1.32.0",
+    "@eversdk/lib-web": "^1.32.0"
+  }
+}
